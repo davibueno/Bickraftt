@@ -8,7 +8,7 @@ body{
     font-size: 1.5rem;
     padding-bottom: 600px;
 }
-h1,p,ul{
+h1,p,ul,h3{
     margin: 0px;
 }
 strong{
@@ -197,4 +197,19 @@ width: 100%;
         font-size: 16px;
     }
 }
+.bicicletas{
+    width: 1200px;
+    margin: auto;
+}
+.bike{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+.compra{
 
+}
+.compra img{
+    display: block;
+    max-width:460px;
+}
