@@ -204,13 +204,15 @@ justify-content: center;
 .bike{
     display: flex;
     gap: 40px;
+    
 }
 .compra{
-
+ padding-left:4px;
 }
 .compra img{
     display: block;
-    max-width:460px;
+    max-width:100%;
+    border-radius: 4px;
 }
 .nome-bike{
     margin-bottom: 8px;
