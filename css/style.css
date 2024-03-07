@@ -198,16 +198,18 @@ width: 100%;
     }
 }
 .bicicletas{
-display: grid;
-justify-content: center;
+    max-width: 1200px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+
 }
 .bike{
     display: flex;
     gap: 40px;
-    
 }
 .compra{
- padding-left:4px;
+
 }
 .compra img{
     display: block;
