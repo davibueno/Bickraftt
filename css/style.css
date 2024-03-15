@@ -198,18 +198,17 @@ width: 100%;
     }
 }
 .bicicletas{
-    max-width: 1200px;
-    display: grid;
-    justify-content: center;
-    margin: auto;
-
+    
 }
 .bike{
     display: flex;
     gap: 40px;
 }
 .compra{
-
+padding-left: 20px;
+max-width: 1400px;
+margin-left: auto;
+margin-right:auto ;
 }
 .compra img{
     display: block;
@@ -220,7 +219,6 @@ width: 100%;
     margin-bottom: 8px;
     margin-top: 8px;
 position: relative;
-display: flex;
 align-items: center;
 }
 .nome-bike::before{
@@ -231,4 +229,11 @@ align-items: center;
     height: 20px;
     background: #ffd600;
     left: -20px;
+}
+.cor-unica{
+   
+}
+.texto-grande{
+    max-width: 1200px;
+    padding-left: 20px;
 }
